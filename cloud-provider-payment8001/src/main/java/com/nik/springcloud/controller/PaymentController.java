@@ -25,6 +25,8 @@ public class PaymentController {
         int res = paymentService.create(payment);
         System.out.println("test");
         if (res > 0) {
+            System.out.println("dev002");
+            System.out.println("dev003");
             return new CommonResult(200,"插入成功",res);
         }else{
             return new CommonResult(444,"插入失败",null);
@@ -38,8 +40,12 @@ public class PaymentController {
         System.out.println("dfsdsgfg");
         if (payment != null) {
             System.out.println("changed");
+            System.out.println("dev001");
             return new CommonResult(200,"查询成功",payment);
         } else {
+            System.out.println("dev111");
+            System.out.println("dev112");
+            System.out.println("dev333");
             return new CommonResult(444,"没有该记录",null);
         }
     }
