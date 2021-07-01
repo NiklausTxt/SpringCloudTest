@@ -37,6 +37,7 @@ public class PaymentController {
         Payment payment = paymentService.getPaymentById(id);
         System.out.println("dfsdsgfg");
         if (payment != null) {
+            System.out.println("changed");
             return new CommonResult(200,"查询成功",payment);
         } else {
             return new CommonResult(444,"没有该记录",null);
