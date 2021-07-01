@@ -40,6 +40,7 @@ public class PaymentController {
             System.out.println("dev001");
             return new CommonResult(200,"查询成功",payment);
         } else {
+            System.out.println("dev111");
             return new CommonResult(444,"没有该记录",null);
         }
     }
