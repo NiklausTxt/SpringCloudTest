@@ -11,6 +11,13 @@
     <modules>
         <module>cloud-provider-payment8001</module>
         <module>cloudalibaba-provider-payment9001</module>
+        <module>nik-test</module>
+        <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloudalibaba-sentinel-service8041</module>
+        <module>cloudalibaba-provider-payment9003</module>
+        <module>cloudalibaba-provider-payment9004</module>
+        <module>cloudalibaba-common-entities</module>
+        <module>cloudalibaba-consumer-nacos-order84</module>
     </modules>
 
 
