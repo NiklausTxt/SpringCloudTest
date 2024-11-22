@@ -20,6 +20,11 @@ public class PaymentController {
     @Resource
     private PaymentService paymentService;
 
+    /**
+     * change 2024/11/22 dd
+     * @param payment
+     * @return
+     */
     @PostMapping(value = "payment/create")
     public CommonResult create(@RequestBody Payment payment) {
         int res = paymentService.create(payment);
